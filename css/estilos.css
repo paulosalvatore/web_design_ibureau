@@ -1,0 +1,37 @@
+div h1 {
+	color: #14B3CC;
+}
+
+#principal h1 {
+	background-color: rgb(204, 120, 20);
+}
+
+.titulo {
+	font-style: italic;
+}
+
+p {
+	text-align: justify;
+}
+
+table {
+	background-color: #DDDDDD;
+	font-family: Verdana;
+}
+
+table thead tr td {
+	font-weight: bold;
+	background-color: #BBBBBB;
+}
+
+table tbody tr:nth-child(odd) td {
+	background-color: #FFFFFF;
+}
+
+table tbody tr:hover td {
+	background: #BBBBBB;
+}
+
+table tr td {
+	padding: 5px;
+}
