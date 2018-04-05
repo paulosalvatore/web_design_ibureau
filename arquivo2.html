@@ -1,0 +1,58 @@
+﻿<html>
+	<head>
+		<title>Exercício 2 JS</title>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/arquivo2.js"></script>
+		<style>
+			body {
+				font-family: Verdana;
+			}
+			
+			label {
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<table>
+				<tr>
+					<td width="200">
+						<label for="nome">Nome:</label>
+					</td>
+					<td>
+						<input type="text" id="nome" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="sobrenome">Sobrenome:</label>
+					</td>
+					<td>
+						<input type="text" id="sobrenome" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="idade">Idade:</label>
+					</td>
+					<td>
+						<input type="text" id="idade" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td>
+						<input type="button" id="buscar" value="Exibir" />
+						<input type="reset" value="Limpar" />
+					</td>
+				</tr>
+			</table>
+		</form>
+		<br>
+		<br>
+		<div id="resultado">
+		</div>
+	</body>
+</html>

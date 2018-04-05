@@ -1,0 +1,68 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Página com Form</title>
+	</head>
+
+	<body>
+		<form>
+			<label for="id_nome">Nome:</label>
+			<input type="text" id="id_nome" name="nome" placeholder="Digite o seu nome" value="Paulo Salvatore" />
+
+			<br>
+			<br>
+
+			<label for="id_senha">Senha:</label>
+			<input type="password" id="id_senha" name="senha" placeholder="Digite a sua senha" />
+
+			<br>
+			<br>
+
+			<label for="id_lembrar_senha">Lembra Senha:</label>
+			<input type="checkbox" id="id_lembrar_senha" name="lembrar_senha" checked />
+
+			<br>
+			<br>
+
+			Gênero:
+			<label for="id_genero_m">Masculino</label>
+			<input type="radio" id="id_genero_m" name="genero" checked />
+			<label for="id_genero_f">Feminino</label>
+			<input type="radio" id="id_genero_f" name="genero" />
+
+			<br>
+			<br>
+
+			<label for="id_signo">Signo:</label>
+			<select id="id_signo" name="signo">
+				<option value="">Selecione o seu signo</option>
+				<option value="1" selected>Sagitário</option>
+				<option value="2">Capricórnio</option>
+			</select>
+
+			<br>
+			<br>
+
+			<label for="id_short_bio">Short Bio:</label>
+			<textarea id="id_short_bio" name="short_bio"></textarea>
+
+			<br>
+			<br>
+
+			<div>
+				<label for="id_habilidades">Habilidades:</label>
+				<select id="id_habilidades" name="habilidades" multiple>
+					<option value="1">Habilidade 1</option>
+					<option value="2">Habilidade 2</option>
+				</select>
+			</div>
+
+			<br>
+			<br>
+
+			<input type="submit" value="Enviar" />
+			<input type="reset" value="Limpar" />
+		</form>
+	</body>
+</html>

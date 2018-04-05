@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Página Maps</title>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script>
+			$(function(){
+				$.ajax({
+					type: "POST",
+					url: "https://maps.googleapis.com/maps/api/geocode/json",
+					data: {
+						"address": "Rua Bandeira Paulista, 716",
+						"key": "AIzaSyBXsvWOGTrufcD2fdNTPNldIPa-Fjwm2jo"
+					},
+					success: function(result){
+						console.log(result);
+					},
+					dataType: "jsonp"
+				});
+			});
+			/*var lat = '';
+			var lng = '';
+			var address = "Rua Bandeira Paulista, 716";
+			geocoder.geocode( { 'address': address}, function(results, status) {
+			if (status == google.maps.GeocoderStatus.OK) {
+			lat = results[0].geometry.location.lat();
+			lng = results[0].geometry.location.lng();
+			} else {
+			alert("Não foi possivel obter localização: " + status);
+			}
+			});
+			alert('Latitude: ' + lat + ' Logitude: ' + lng);*/
+		</script>
+	</head>
+
+	<body>
+	</body>
+</html>
