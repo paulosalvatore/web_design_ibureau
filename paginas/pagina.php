@@ -28,12 +28,12 @@
 	<head>
 		<meta charset="ISO-8859-1">
 		<title>Página PHP</title>
-		<link rel="stylesheet" type="text/css" href="css/estilos.css">
-		<script src="js/jquery-3.3.1.min.js"></script>
-		<script src="js/script_jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/script_jquery.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.css"/>
- 
+
 		<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
 	</head>
 

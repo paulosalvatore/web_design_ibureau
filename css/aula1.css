@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	font-style: italic;
+	font-family: Verdana, cursive;
+}
+
+#principal {
+	border: 1px solid #999999;
+	margin: 5px;
+}
+
+#cabecalho {
+	background: #11C8B6;
+	padding-left: 20px;
+	padding-right: 20px;
+}
